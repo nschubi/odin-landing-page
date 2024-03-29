@@ -90,18 +90,37 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 100px;
 }
 
 .info-container{
     display: flex;
     justify-content: center;
-    align-items: center;`
+    align-items: center;
+    gap: 20px;
 }
 
 #info-header{
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+}
+
+.box-img{
+    width: 20vh;
+}
+
+.box-img > p {
+    width: 100px;
+    margin-top: 0px;
+}
+
+.small-img{
+    border-radius: 5px;
+    border-color: #3B82F6;
+    border-style: solid;
+    width: 100px;
+    height: 100px;
 }
 
 .quote{
