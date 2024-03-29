@@ -132,7 +132,7 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 100px;
     padding: 40px;
 }
 
