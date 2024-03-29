@@ -2,8 +2,9 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 0;
+    margin: 0 auto;
     min-height: 100vh;
+    max-width: 1000px;
 }
 
 a{
@@ -25,12 +26,13 @@ img{
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
+    padding-top: 10px;
 }
 
 .left-links, .right-links{
     display: flex;
+    align-items: center;
     gap: 16px;
-    margin: 16px;
 }
 
 #header-logo{
@@ -48,28 +50,40 @@ img{
 .hero{
     background-color: #1F2937;
     display: flex;
+    padding: 100px;
+}
+
+.hero-text{
+    margin-right: 50px;
 }
 
 #hero-main-text{
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900;
     color: #F9FAF8;
+    margin: 0;
 
 }
 
 #hero-secondary-text{
     font-size: 18px;
     color: #E5E7EB;
+    margin: 0;
+    margin-bottom: 10px;
 }
 
 #hero-img{
-    width: 300px;
+    width: 350px;
     height: auto;
 }
 
 button{
     background-color: #3B82F6;
-    color: #FFFFFF
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 5px 30px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .info{
@@ -81,7 +95,7 @@ button{
 .info-container{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;`
 }
 
 #info-header{
